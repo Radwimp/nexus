@@ -1,0 +1,27 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/gateway/node_modules
+/web/node_modules
+
+# testing
+/coverage
+
+# next.js
+/web/.next/
+/web/out/
+
+# production
+/gateway/dist
+/web/build
+/engine/target
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
